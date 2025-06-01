@@ -3,7 +3,7 @@
 # 📄 Title: 04_data_frame_intro.R
 # 📆 Date: 2025-06-01
 # 🧠 Purpose: 練習建立一筆小型的運動傷害紀錄資料，並熟悉data.frame()的使用情境與撰寫技術
-# 💡 Topic: data.frame, colum types, indexing, summary
+# 💡 Topic: data.frame, column types, indexing, summary
 ##################################################
 
 # 使用情境
