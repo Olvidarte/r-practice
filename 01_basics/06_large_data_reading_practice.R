@@ -4,7 +4,7 @@
 # 📆 Date: 2025-06-02
 # 🧠 Purpose: 練習讀取大數據的資料庫，並估算可能需要的記憶體
 # 💡 Topic: read.table, read.csv, memory calculation
-# 🎓 Source: Coursera
+# 🎓 Source: Coursera - R Programming - 第1單元 - Reading Large Tables
 ##################################################
 
 # 使用情境
