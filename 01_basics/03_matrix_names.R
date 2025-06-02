@@ -19,7 +19,11 @@ dimnames(time_loss_days) <- list(
 
 
 #測試
-
 print(time_loss_days)
 
+#印出2024年所有的傷害資料
+print(time_loss_days["2024",])
+
+#印出ACL Rupture跨年度的time loss比較
+print(time_loss_days[,"ACL Rupture"])
 
