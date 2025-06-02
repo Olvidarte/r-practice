@@ -17,15 +17,14 @@
 con <- gzfile("injury_data_2024.gz", "r")
 
 # 讀取前10行的欄位名稱與資料
-preview_lines <- readlines(con, row = 10)
+preview_lines <- readLines(con, n = 10)
 
 # 關閉結果
 close(con)
 
 # 測試
+cat(preview_lines, sep = "/n")
 
 
-
-# 測試
 
 
