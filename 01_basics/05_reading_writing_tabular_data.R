@@ -8,7 +8,7 @@
 ##################################################
 
 # 題目:
-# 你有一個檔案叫injury_data.text，她的內容如下（每一欄由逗號分開）
+# 你有一個檔案叫injury_data.text，內容如下（每一欄由逗號分開）
 # Name,InjuryType,TimeLoss
 # Samantha,Concussion,14
 # Anita, Ankle Sprain,21
