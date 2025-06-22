@@ -4,7 +4,7 @@
 # 📆 Date: 2025-06-06
 # 🧠 Purpose: 練習使用for loop和if/else實現不同injury severity的分類
 # 💡 Topic: Control Structure - For loop + if/else
-# 🎓 Source: Coursera - R Programming - Week 2 - Control Struction: for loop
+# 🎓 Source: Coursera - R Programming - Week 2 - Control Structure: for loop
 ##################################################
 
 # 情境 1
@@ -22,7 +22,7 @@ for(i in 1:nrow(injury_data)){
   time_loss_days <- injury_data$Time_loss[i]
   athlete <- injury_data$Athlete[i]
   
-  cat(athlete, "的傷害診斷為", injury, "，預估傷停", time_loss_days, "天。\n")
+  cat(athlete, "的傷害診斷為", injury, "，傷停天數", time_loss_days, "天。\n")
 }
 
 severity <- c()
@@ -70,9 +70,9 @@ ggplot(injury_data, aes(x = athlete, y = Time_loss, fill = Severity)) +
 # 情境 2
 # 你正在協助整理女籃選手的功能性測試分數，分數越高表示功能越好。球隊的標準如下：
 
-  ## Funtional Test ≥90   -> 通過 (Pass)
-  ## Funtional Test 75-89 -> 及格邊緣 (Borderline)
-  ## Funtional Test ≤75   -> 不通過(Fail)
+  ## Functional Test ≥90   -> 通過 (Pass)
+  ## Functional Test 75-89 -> 及格邊緣 (Borderline)
+  ## Functional Test ≤75   -> 不通過(Fail)
 
 test_data <- data.frame(
   athlete = c("Anita", "Samantha", "Jemma", "Ping", "Carolyn"),
